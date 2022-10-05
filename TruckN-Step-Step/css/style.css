@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow: hidden;
+}
+body{
+    width:100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    background-image: url(../img/robson-hatsukami-morgan-NKr0qBAkU4s-unsplash.jpg);
+    background-position:center;
+    background-size:cover;
+    height:109vh;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.44);
+}
+
+nav{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.brand{
+    color: #F29F05;
+    font-size: 28px;
+    font-family: Arial;
+}
+
+.nav-items{
+    display: flex;
+}
+.nav-item{
+    margin: 30px;
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-item:hover{
+    color: #F29F05;
+}
+
+.search-bar input{
+    color: white;
+    background-color: transparent;
+    border: 1px solid #F29F05;
+    border-right: none;
+    border-radius: 5px 0px 0px 5px;
+    height: 40px; 
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.search-bar button{
+    height: 40px;
+    background-color: #F29F05;
+    color:white;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    width: 100px;
+}
+
+.search-bar{
+    display: flex;
+}
+
+main{
+    width: 90%;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    color: white;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.paragraph{
+    font-family:'Arial';
+    color: white;
+    font-size: 14px;
+}
+
+.title-mark{
+    color: #F29F05;
+}
+
+.main-buttom button{
+    width: 160px;
+    height: 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: #F29F05;
+    border: 1px solid #F29F05;
+    font-weight: 500;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.box-info{
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.75);
+    width: 45vh;
+    height: 70vh;
+}
+
+.all-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.box{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box form{
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.793);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+.box form h2{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    color: #F29F05;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-family: "arial";
+}
+
+.box form input[type=text], input[type=password]{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+    border-bottom: 2px solid #F29F05;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box form input[type=submit]{
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    background-color: #F29F05;
+}
+
+.box form span{
+    width: 100%;
+    text-align: center;
+}
+.box form span a{
+    color: #F29F05;
+}
+
+.box form span:last-child{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px
+}
+
+.box-icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.box-icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    transition: 0.3s ease;
+}
+.box-icons ion-icon:hover{
+    color: #F29F05;
+}
+
+.box form input[type=submit]:hover{
+    background-color: #F29F05;
+    color: white;
+    border: #ffffff solid;
+    cursor: pointer;
+}
+
+
